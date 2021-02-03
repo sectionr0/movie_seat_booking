@@ -60,3 +60,11 @@ body{
 .occupied{
     background-color: #fff;
 }
+
+p.counttext {
+    margin: 5px 0;
+}
+  
+p.counttext span {
+    color: #6feaf6;
+}
