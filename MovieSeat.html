@@ -10,12 +10,12 @@
 <body>
     <div class="moive-container">
         <label>Pick a movie : </label>
-        <select>
-            <option value="1">movie1</option>
-            <option value="2">movie2</option>
-            <option value="3">movie2</option>
-            <option value="4">movie2</option>
-            <option value="5">movie2</option>
+        <select id=movielist>
+            <option value="10">movie1 ($10)</option>
+            <option value="12">movie2 ($12)</option>
+            <option value="15">movie3 ($15)</option>
+            <option value="7">movie4 ($7)</option>
+            <option value="9">movie5 ($9)</option>
         </select>
     </div>
 
@@ -103,6 +103,11 @@
             <div class="seat"></div>
         </div>
     </div>
+    <p class="counttext">
+        Select Moive : <span id="count">0</span><br>
+        Price : $ <span id="total">0</span>
+    </p>
+
 
     <script src="Seatbooking.js"></script>
 </body>
